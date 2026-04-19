@@ -17,8 +17,8 @@ public class Mantenimiento extends javax.swing.JFrame {
      */
     public Mantenimiento() {
         initComponents();
-        this.setSize(500, 500);          // Le das tamaño de una vez
-        this.setLocationRelativeTo(null); // Lo centras
+        this.setSize(500, 500);          
+        this.setLocationRelativeTo(null); 
         this.setResizable(false); 
     }
 
@@ -119,8 +119,8 @@ public class Mantenimiento extends javax.swing.JFrame {
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
-        Menu principal = new Menu(); // Crea el objeto de tu ventana de menú
-        principal.setVisible(true);   // Hace que el menú aparezca
+        Menu principal = new Menu(); 
+        principal.setVisible(true);  
     this.dispose();
         
     }//GEN-LAST:event_jButton4ActionPerformed
